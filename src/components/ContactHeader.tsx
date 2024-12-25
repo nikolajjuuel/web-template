@@ -37,7 +37,7 @@ const ContactHeader = () => {
             strokeDashoffset={dashoffset[0] - scrollPosition}
           />
         </div>
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
     </div>
   );
