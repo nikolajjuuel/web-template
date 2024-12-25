@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Animation</title>
+  <style>
+    /* Keyframes for the slideOver animation */
+    @keyframes down {
+      0% {
+        transform: translate(0px, 0px);
+      }
+
+      25% {
+        transform: translate(0px, 70px);
+      }
+
+      50% {
+        transform: translate(74px, 70px)
+      }
+
+      75% {
+        transform: translate(74px, 0px)
+      }
+    }
+
+    @keyframes up {
+      0% {
+        transform: translate(0px, 0px);
+      }
+
+      25% {
+        transform: translate(0px, -70px);
+      }
+
+      50% {
+        transform: translate(-74px, -70px)
+      }
+
+      75% {
+        transform: translate(-74px, 0px)
+      }
+    }
+
+
+
+    /* Apply animation to the specific element */
+
+    #t1 {
+      animation: up 4s ease infinite;
+    }
+
+    #t2 {
+      animation: down 4s ease infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <svg width="188" height="188" viewBox="0 0 188 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="188" height="188" fill="#F5F5F5" />
+      <g clip-path="url(#clip0_23_14)">
+        <rect width="188" height="188" fill="white" />
+        <path id="t1" opacity="0.5" d="M94 21L136.435 161.25H51.5648L94 21Z" fill="#AF52DE" />
+        <path id="t2" opacity="0.5" d="M67 21L108.569 161.25H25.4308L67 21Z" fill="#5856D6" />
+        <path id="t3" opacity="0.5" d="M121 21L162.569 161.25H79.4308L121 21Z" fill="#FF2D55" />
+        <path id="t4" opacity="0.5" d="M67 21L108.569 161.25H25.4308L67 21Z" fill="#5856D6" />
+      </g>
+      <defs>
+        <clipPath id="clip0_23_14">
+          <rect width="188" height="188" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+
+
+  </div>
+</body>
+
+</html>
