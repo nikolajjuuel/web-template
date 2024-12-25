@@ -3,7 +3,7 @@ import Speaking from "../components/Speaking.tsx";
 import ContactForm from "./ContactForm.tsx";
 const ContactHeader = () => {
   const [dasharray] = useState([500, 3373]);
-  const [dashoffset, setDashoffset] = useState([0, 0]);
+  const [dashoffset] = useState([0, 0]);
   const topRef = useRef<HTMLDivElement>(null);
 
   const [scrollPosition, setScrollPosition] = useState(0);
