@@ -4,17 +4,12 @@ import Industry from "./components/Industry";
 import LogoCarousel from "./components/LogoCarousel";
 import ContactHeader from "./components/ContactHeader";
 import Stack from "./components/Stack";
-import ContactForm from "./components/ContactForm";
-import Triangles from "./components/Triangles";
-import Circles from "./components/Circles";
-import Squares from "./components/Squares";
 import Work from "./components/Work";
 
 const SVGCOLOR = "rgb(255 156 171)";
 //"rgb(0,255,197)";
 const SVGSTROKE = 1;
 const SVGLINE = "round";
-const SVGBG = "rgb(255,255,255)";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
