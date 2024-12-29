@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import Industry from "./components/Industry";
 import LogoCarousel from "./components/LogoCarousel";
