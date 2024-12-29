@@ -1,10 +1,23 @@
 const Work = () => {
   return (
-    <div>
-      <div className=" md:bg-yellow-500 ">
+    <div
+      className="md:flex flex-col items-center"
+      style={{
+        background: "rgb(255 189 93 / 62%)",
+      }}
+    >
+      <div className="">
         <div className="md:flex max-w-5xl">
           <div className="md:w-1/2">
-            <img src="/helm.jpeg" alt="Helm Chapter 2" />
+            <img
+              src="/helm.jpeg"
+              alt="Helm Chapter 2"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
           </div>
           <div className="md:w-1/2">
             <h3 className="work">Chapter 2</h3>
@@ -30,10 +43,18 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className=" md:bg-yellow-500 ">
+      <div className="">
         <div className="md:flex max-w-5xl md:flex-row-reverse">
           <div className="md:w-1/2 ">
-            <img src="/champsys.png" alt="Champion System Riders" />
+            <img
+              src="/champsys.png"
+              alt="Champion System Riders"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
           </div>
           <div className="md:w-1/2">
             <h3 className="work">Champion System Canada</h3>
@@ -51,10 +72,18 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className=" md:bg-yellow-500 ">
+      <div className="">
         <div className="md:flex max-w-5xl ">
           <div className="md:w-1/2">
-            <img src="/swim.jpg" alt="World Triathlon" />
+            <img
+              src="/swim.jpg"
+              alt="World Triathlon"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
           </div>
           <div className="md:w-1/2">
             <ul className="pl-8 pr-8 pt-4 pb-4">
@@ -68,10 +97,18 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className=" md:bg-yellow-500 ">
+      <div className="">
         <div className="md:flex max-w-5xl md:flex-row-reverse">
           <div className="md:w-1/2">
-            <img src="/wine.jpeg" alt="Lifford Wine Pre-Orders" />
+            <img
+              src="/wine.jpeg"
+              alt="Lifford Wine Pre-Orders"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
           </div>
           <div className="md:w-1/2">
             <h3 className="work">Lifford Wine</h3>

@@ -9,7 +9,7 @@ const Triangles = () => {
         xmlns="http://www.w3.org/2000/svg"
         className="triangles"
       >
-        <g clip-path="url(#clip0_23_14)">
+        <g clipPath="url(#clip0_23_14)">
           <path
             id="t1"
             opacity="0.5"

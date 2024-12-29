@@ -4,11 +4,11 @@ import Triangles from "./Triangles";
 
 const Industry = () => {
   return (
-    <div className="w-full p-4 ">
+    <div className="w-full p-4 max-w-5xl">
       <div className="text-center ">
         <h3>Industry Experience</h3>
       </div>
-      <div className="md:flex max-w-5xl	">
+      <div className="md:flex ">
         <div className="flex md:w-1/3 flex-col items-center justify-center">
           <div className="p-2">
             <Circles />

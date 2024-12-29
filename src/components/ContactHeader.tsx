@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Speaking from "../components/Speaking.tsx";
-// import ContactForm from "./ContactForm.tsx";
+import ContactForm from "./ContactForm.tsx";
 const ContactHeader = () => {
   const [dasharray] = useState([500, 3373]);
   const [dashoffset] = useState([0, 0]);
@@ -23,12 +23,12 @@ const ContactHeader = () => {
   return (
     <div
       ref={topRef}
-      className="bg-rose-600 text-white "
+      className="w-full max-w-5xl"
       style={{ position: "relative", height: "3000px" }}
     >
       <div
-        className="flex flex-col items-center max-w-5xl"
-        style={{ position: "sticky", top: "140px" }}
+        className="flex flex-col items-center"
+        style={{ position: "sticky", top: "70px" }}
       >
         <h3> Let's Connect</h3>
         <div className="w-3/5">
@@ -37,7 +37,7 @@ const ContactHeader = () => {
             strokeDashoffset={dashoffset[0] - scrollPosition}
           />
         </div>
-        {/* <ContactForm /> */}
+        <ContactForm />
       </div>
     </div>
   );

@@ -56,171 +56,169 @@ const LogoCarousel = () => {
   }, []);
 
   return (
-    <>
-      <div className="carousel-container pb-4">
-        <div className="carousel max-w-5xl">
-          <div
-            className="directions"
-            onMouseEnter={() => (direction.current = 1)}
+    <div className="carousel-container pb-4 max-w-5xl ">
+      <div className="carousel">
+        <div
+          className="directions"
+          onMouseEnter={() => (direction.current = 1)}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="size-6"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.75 19.5 8.25 12l7.5-7.5"
-              />
-            </svg>
-          </div>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
+        </div>
 
-          <div
-            className="slow pb-5"
-            onMouseEnter={() => (speed.current = 0.2)}
-            onMouseLeave={() => (speed.current = 0.3)}
-            ref={logosRef}
-          >
-            <div className="logos" style={style}>
-              <img
-                src={aws}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="AWS logo"
-              />
-              <img
-                src={c_sharp}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="C# logo"
-              />
-              <img
-                src={css}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="CSS logo"
-              />
-              <img
-                src={cypress}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="Cypress logo"
-              />
-              <img
-                src={github}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="Github logo"
-              />
-              <img
-                src={html}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="HTML5 logo"
-              />
-              <img
-                src={java_script}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="JavaScript logo"
-              />
-              <img
-                src={jest}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="Jest logo"
-              />
-              <img
-                src={mocha}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="Mocha logo"
-              />
-              <img
-                src={mui}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="MUI logo"
-              />
-              <img
-                src={next_js}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="Next JS logo"
-              />
-              {/* <img
+        <div
+          className="slow pb-5"
+          onMouseEnter={() => (speed.current = 0.2)}
+          onMouseLeave={() => (speed.current = 0.3)}
+          ref={logosRef}
+        >
+          <div className="logos" style={style}>
+            <img
+              src={aws}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="AWS logo"
+            />
+            <img
+              src={c_sharp}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="C# logo"
+            />
+            <img
+              src={css}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="CSS logo"
+            />
+            <img
+              src={cypress}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="Cypress logo"
+            />
+            <img
+              src={github}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="Github logo"
+            />
+            <img
+              src={html}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="HTML5 logo"
+            />
+            <img
+              src={java_script}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="JavaScript logo"
+            />
+            <img
+              src={jest}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="Jest logo"
+            />
+            <img
+              src={mocha}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="Mocha logo"
+            />
+            <img
+              src={mui}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="MUI logo"
+            />
+            <img
+              src={next_js}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="Next JS logo"
+            />
+            {/* <img
                 src={ruby}
                 className="logo"
                 onMouseEnter={() => (speed.current = 0)}
                 onMouseLeave={() => (speed.current = 0.3)}
                 alt="Ruby logo"
               /> */}
-              <img
-                src={sass}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="SASS logo"
-              />
-              <img
-                src={storybook}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="Storybook logo"
-              />
-              <img
-                src={vercel}
-                className="logo"
-                onMouseEnter={() => (speed.current = 0)}
-                onMouseLeave={() => (speed.current = 0.3)}
-                alt="Vercel logo"
-              />
-              <img
-                ref={logoWidthRef}
-                src={vitest}
-                className="logo"
-                alt="Vitest logo"
-              />
-            </div>
-          </div>
-          <div
-            className="directions"
-            onMouseEnter={() => (direction.current = 0)}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              />
-            </svg>
+            <img
+              src={sass}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="SASS logo"
+            />
+            <img
+              src={storybook}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="Storybook logo"
+            />
+            <img
+              src={vercel}
+              className="logo"
+              onMouseEnter={() => (speed.current = 0)}
+              onMouseLeave={() => (speed.current = 0.3)}
+              alt="Vercel logo"
+            />
+            <img
+              ref={logoWidthRef}
+              src={vitest}
+              className="logo"
+              alt="Vitest logo"
+            />
           </div>
         </div>
+        <div
+          className="directions"
+          onMouseEnter={() => (direction.current = 0)}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="size-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

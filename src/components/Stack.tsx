@@ -1,12 +1,12 @@
 const Stack = () => {
   return (
     <div
-      className=" w-full p-4 "
+      className=" w-full p-4 max-w-5xl"
       style={{
-        background: "rgb(255 229 152)",
+        background: "#ffe598",
       }}
     >
-      <div className="max-w-5xl	">
+      <div className="">
         <div className="text-center p-5">
           <h3>Main Stack</h3>
         </div>
