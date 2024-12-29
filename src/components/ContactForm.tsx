@@ -1,38 +1,4 @@
-import { useState } from "react";
-
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e: any) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-  const handleSubmit = async (e: any) => {
-    e.preventDefault();
-    try {
-      const response = await fetch("https://formspree.io/f/xkggrvbl", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        alert("Form submitted successfully!");
-        setFormData({ name: "", email: "", message: "" }); // Reset the form
-      } else {
-        alert("Failed to submit the form.");
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      alert("An error occurred.");
-    }
-  };
-
   return (
     <div
       className="bg-rose-600"
@@ -56,8 +22,6 @@ const ContactForm = () => {
                 Name
               </label>
               <input
-                value={formData.name}
-                onChange={handleChange}
                 required
                 type="text"
                 id="name"
@@ -76,8 +40,6 @@ const ContactForm = () => {
               </label>
               <input
                 required
-                value={formData.email}
-                onChange={handleChange}
                 type="email"
                 id="email"
                 name="email"
@@ -94,8 +56,6 @@ const ContactForm = () => {
                 Message
               </label>
               <textarea
-                value={formData.message}
-                onChange={handleChange}
                 id="message"
                 name="message"
                 rows={4}
