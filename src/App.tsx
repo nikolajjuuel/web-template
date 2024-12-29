@@ -76,21 +76,23 @@ function App() {
                 <h2>Software Developer</h2>
                 <div>
                   <button className="flex mr-2">
-                    <p style={{ paddingBottom: "0px" }}>Let's Chat</p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                      />
-                    </svg>
+                    <a href="#contact" className="flex">
+                      <p style={{ paddingBottom: "0px" }}>Let's Chat</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                        />
+                      </svg>
+                    </a>
                   </button>
                 </div>
               </div>
@@ -1635,6 +1637,7 @@ function App() {
                 <strong>Nikolaj Juuel Johansen</strong>
               </li>
               <li>Vancouver</li>
+              <li>nikolaj.juuel@gmail.com</li>
               <li>604.442.6950</li>
             </ul>
           </div>
@@ -1661,17 +1664,17 @@ function App() {
           </div>
         </div>
       </div>
-      <div>Schedule an Appointment</div>
-      <div>Socials</div>
+      {/* <div>Schedule an Appointment</div>
+      <div>Socials</div> */}
 
-      <div className="flex md:bg-yellow-500 ">
+      {/* <div className="flex md:bg-yellow-500 ">
         <div className="md:w-1/2">Im a text section 100 mobile 50 desktop</div>
         <div className="md:w-1/2">Im an img 100 mobile 50 desktop</div>
       </div>
       <button onClick={() => setDarkMode(!darkMode)}>
         {"Dark Mode Activated"}
       </button>
-      <div className="bg-white dark:bg-slate-800"> im a contact container</div>
+      <div className="bg-white dark:bg-slate-800"> im a contact container</div> */}
     </>
   );
 }

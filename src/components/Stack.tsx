@@ -71,7 +71,7 @@ const Stack = () => {
               </svg>
             </div>
             <h4>PostgreSQL</h4>
-            <p>2 Years</p>
+            <p>1 Years</p>
           </div>
         </div>
       </div>
