@@ -1,7 +1,7 @@
 const Work = () => {
   return (
     <div
-      className="md:flex flex-col items-center"
+      className="md:flex flex-col items-center pt-8 pb-8"
       style={{
         background: "rgb(255 189 93 / 62%)",
       }}
@@ -86,8 +86,8 @@ const Work = () => {
             />
           </div>
           <div className="md:w-1/2">
+            <h3 className="work">World Trithalon Store</h3>
             <ul className="pl-8 pr-8 pt-4 pb-4">
-              <h3 className="work">The World Trialon Store</h3>
               <li>New Website and E-commerce Platform</li>
               <li>Automated e-mails</li>
               <li>Changed client aquisition strategy</li>

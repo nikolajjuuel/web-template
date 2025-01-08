@@ -86,7 +86,7 @@ li {
       #ffffff 0%,
       100%,
       rgba(255, 255, 255, 0) 100%
-    ) !important;
+    );
 }
 
 .logo {
