@@ -1,9 +1,9 @@
-interface Props {
-  img: string;
-  href: string;
-}
+// interface Props {
+//   img: string;
+//   href: string;
+// }
 
-const IconLink = (props: Props) => {
+const IconLink = () => {
   return "IconLink";
 };
 
