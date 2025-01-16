@@ -64,7 +64,7 @@ const Work = () => {
               <li>Built New Website</li>
               <li>Introduced Individual Team Stores</li>
               <li>Developed Sales Script</li>
-              <li>Helped generate over $100,000 in sales</li>
+              <li>Helped generate over $250,000 in sales</li>
               <li>Graphic Design</li>
               <li>News Letters</li>
               <li>Promotions</li>
@@ -93,6 +93,7 @@ const Work = () => {
               <li>Changed client aquisition strategy</li>
               <li>Developed new checkout strategy</li>
               <li>Prototyped 3D modelling of products</li>
+              <li>Helped generate over $200,000 in sales</li>
             </ul>
           </div>
         </div>
