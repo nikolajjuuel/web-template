@@ -46,7 +46,7 @@ function App() {
                 }}
               >
                 <img
-                  src="https://media.licdn.com/dms/image/v2/C5603AQFEK2r3qzJtHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1534269517116?e=1740614400&v=beta&t=tDTldb139CVzArpKjkBE0XZpGtdId8gS4sZpXnGFmuU"
+                  src="baker.JPG"
                   alt="tent"
                   style={{
                     objectFit: "cover",
@@ -177,7 +177,7 @@ function App() {
                 <strong>Nikolaj Juuel Johansen</strong>
               </li>
               <li>Vancouver</li>
-              <li>604.442.6950</li>
+              <li>0489.187.559</li>
               <li>nikolaj.juuel@gmail.com</li>
             </ul>
           </div>
