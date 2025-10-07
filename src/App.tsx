@@ -50,7 +50,6 @@ function App() {
                   alt="tent"
                   style={{
                     objectFit: "cover",
-                    objectPosition: "top",
                     width: "100%",
                     height: "100%",
                   }}
