@@ -46,7 +46,7 @@ function App() {
                 }}
               >
                 <img
-                  src="baker.JPG"
+                  src="linkedin.jpg"
                   alt="tent"
                   style={{
                     objectFit: "cover",
@@ -176,7 +176,7 @@ function App() {
               <li>
                 <strong>Nikolaj Juuel Johansen</strong>
               </li>
-              <li>Vancouver</li>
+              <li>Sydney</li>
               <li>0489.187.559</li>
               <li>nikolaj.juuel@gmail.com</li>
             </ul>
