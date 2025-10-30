@@ -46,11 +46,10 @@ function App() {
                 }}
               >
                 <img
-                  src="baker.JPG"
+                  src="linkedin.jpg"
                   alt="tent"
                   style={{
                     objectFit: "cover",
-                    objectPosition: "top",
                     width: "100%",
                     height: "100%",
                   }}
@@ -176,8 +175,8 @@ function App() {
               <li>
                 <strong>Nikolaj Juuel Johansen</strong>
               </li>
-              <li>Vancouver</li>
-              <li>0489.187.559</li>
+              <li>Denmark</li>
+              {/* <li>+1.604.442.6950</li> */}
               <li>nikolaj.juuel@gmail.com</li>
             </ul>
           </div>
