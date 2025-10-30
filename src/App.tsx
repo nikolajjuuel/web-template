@@ -175,8 +175,8 @@ function App() {
               <li>
                 <strong>Nikolaj Juuel Johansen</strong>
               </li>
-              <li>Sydney</li>
-              <li>0489.187.559</li>
+              <li>Denmark</li>
+              {/* <li>+1.604.442.6950</li> */}
               <li>nikolaj.juuel@gmail.com</li>
             </ul>
           </div>
