@@ -20,8 +20,8 @@ const Industry = () => {
           <div className="p-2">
             <Triangles />
           </div>
-          <h4>Software Development</h4>
-          <p>2.5 Years</p>
+          <h4>Full-Stack Software Development</h4>
+          <p>3 Years</p>
         </div>
         <div className="flex md:w-1/3 flex-col items-center justify-center">
           <div className="p-2">
