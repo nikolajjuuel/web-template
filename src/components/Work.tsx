@@ -64,7 +64,8 @@ const Work = () => {
               <li>Built New Website</li>
               <li>Introduced Individual Team Stores</li>
               <li>Developed Sales Script</li>
-              <li>Helped generate over $250,000 in sales</li>
+              <li>Helped generate over $650,000 in sales</li>
+              <li>100% increase in email signups</li>
               <li>Graphic Design</li>
               <li>News Letters</li>
               <li>Promotions</li>

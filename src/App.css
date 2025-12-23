@@ -5,6 +5,10 @@
   max-width: 975px; 
 } */
 
+#root {
+  position: relative;
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -26,7 +26,7 @@ const Stack = () => {
               </svg>
             </div>
             <h4>TypeScript</h4>
-            <p>2.5 Years</p>
+            <p>3 Years</p>
           </div>
           <div className="flex md:w-1/3 flex-col items-center justify-center">
             <div className="p-2" style={{ width: "100px" }}>
@@ -44,7 +44,7 @@ const Stack = () => {
               </svg>
             </div>
             <h4>React</h4>
-            <p>2.5 Years</p>
+            <p>3 Years</p>
           </div>
           <div className="flex md:w-1/3 flex-col items-center justify-center">
             <div className="p-2" style={{ width: "100px" }}>
@@ -71,7 +71,7 @@ const Stack = () => {
               </svg>
             </div>
             <h4>PostgreSQL</h4>
-            <p>1 Years</p>
+            <p>2 Years</p>
           </div>
         </div>
       </div>
