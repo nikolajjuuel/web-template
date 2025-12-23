@@ -156,10 +156,10 @@ function App() {
         <LogoCarousel />
       </div>
       <Work />
-
+      {/* 
       <div className="flex justify-center">
         <Projects />
-      </div>
+      </div> */}
       <div className="bg-rose-600 text-white md:flex md:flex-column md:justify-center pt-8">
         <ContactHeader />
       </div>
