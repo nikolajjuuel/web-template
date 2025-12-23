@@ -11,6 +11,7 @@ import BakerContour from "./components/BakerContour";
 import RichText from "./components/RichText";
 import Projects from "./components/Projects";
 import ProjectView from "./components/ProjectView";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const SVGCOLOR = "rgb(255 156 171)";
 //"rgb(0,255,197)";
@@ -214,6 +215,7 @@ function App() {
         {"Dark Mode Activated"}
       </button>
       <div className="bg-white dark:bg-slate-800"> im a contact container</div> */}
+      <SpeedInsights />
     </>
   );
 }
