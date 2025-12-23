@@ -9,7 +9,7 @@ import instagram from "./assets/instagram.svg";
 import linkedIn from "./assets/linkedIn.svg";
 import BakerContour from "./components/BakerContour";
 import RichText from "./components/RichText";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const SVGCOLOR = "rgb(255 156 171)";
