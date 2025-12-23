@@ -9,8 +9,8 @@ import instagram from "./assets/instagram.svg";
 import linkedIn from "./assets/linkedIn.svg";
 import BakerContour from "./components/BakerContour";
 import RichText from "./components/RichText";
-import Projects from "./components/Projects";
-import ProjectView from "./components/ProjectView";
+// import Projects from "./components/Projects";
+// import ProjectView from "./components/ProjectView";
 
 const SVGCOLOR = "rgb(255 156 171)";
 //"rgb(0,255,197)";
@@ -157,9 +157,7 @@ function App() {
       </div>
       <Work />
 
-      <div className="flex justify-center">
-        <Projects />
-      </div>
+      <div className="flex justify-center">{/* <Projects /> */}</div>
       <div className="bg-rose-600 text-white md:flex md:flex-column md:justify-center pt-8">
         <ContactHeader />
       </div>
